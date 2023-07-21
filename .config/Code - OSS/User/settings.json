@@ -1,5 +1,6 @@
 {
     "explorer.confirmDelete": false,
     "window.commandCenter": true,
-    "window.titleBarStyle": "custom"
+    "window.titleBarStyle": "custom",
+    "git.autofetch": true
 }

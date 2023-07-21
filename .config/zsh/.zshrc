@@ -101,3 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sudo="sudo "
 alias vim="nvim"
+
+
+eval "$(starship init zsh)"
