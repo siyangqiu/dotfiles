@@ -1,0 +1,2 @@
+2023-07-21 14:35:17.686 [warning] Webgl could not be loaded. Falling back to the canvas renderer type. WebGL2 not supported null
+2023-07-21 14:35:19.602 [info] [perf] Render performance baseline is 27ms

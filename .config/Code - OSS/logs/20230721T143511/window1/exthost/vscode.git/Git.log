@@ -1,0 +1,77 @@
+2023-07-21 14:35:18.246 [info] Log level: Info
+2023-07-21 14:35:18.246 [info] Validating found git in: "git"
+2023-07-21 14:35:18.246 [info] Using git "2.41.0" from "git"
+2023-07-21 14:35:18.246 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-21 14:35:18.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.246 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-21 14:35:18.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.246 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-21 14:35:18.246 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-07-21 14:35:18.246 [info] Open repository: /home/siyangqiu/HyprV4
+2023-07-21 14:35:18.246 [info] > git config --get commit.template [267ms]
+2023-07-21 14:35:18.246 [info] > git rev-parse --show-toplevel [272ms]
+2023-07-21 14:35:18.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.246 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-21 14:35:18.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.247 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-21 14:35:18.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.251 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-21 14:35:18.251 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.253 [info] > git rev-parse --show-toplevel [0ms]
+2023-07-21 14:35:18.253 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-07-21 14:35:18.260 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-21 14:35:18.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.262 [info] > git rev-parse --show-toplevel [0ms]
+2023-07-21 14:35:18.262 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.265 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-21 14:35:18.265 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:35:18.305 [info] > git rev-parse --show-toplevel [38ms]
+2023-07-21 14:35:18.309 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-07-21 14:35:18.311 [info] Open repository: /home/siyangqiu/dotfiles
+2023-07-21 14:35:18.322 [info] > git config --get commit.template [2ms]
+2023-07-21 14:35:18.322 [info] > git ls-files --stage -- /home/siyangqiu/HyprV4/HyprV/hypr/hyprland.conf [4ms]
+2023-07-21 14:35:18.326 [info] > git cat-file -s 9c346f922f7fec0124188383c3e4920a61ddfc8e [1ms]
+2023-07-21 14:35:18.354 [info] > git show --textconv :HyprV/hypr/hyprland.conf [39ms]
+2023-07-21 14:35:18.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [194ms]
+2023-07-21 14:35:18.544 [info] > git status -z -uall [14ms]
+2023-07-21 14:35:18.552 [info] > git config --get commit.template [1ms]
+2023-07-21 14:35:18.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-07-21 14:35:18.557 [info] > git status -z -uall [0ms]
+2023-07-21 14:35:18.614 [info] > git status -z -uall [355ms]
+2023-07-21 14:35:18.623 [info] > git config --get commit.template [2ms]
+2023-07-21 14:35:18.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-21 14:35:18.645 [info] > git status -z -uall [13ms]
+2023-07-21 14:35:18.848 [info] > git check-ignore -v -z --stdin [8ms]
+2023-07-21 14:35:18.848 [info] > git check-ignore -v -z --stdin [4ms]
+2023-07-21 14:35:21.170 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-21 14:35:21.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:36:04.565 [info] > git rev-parse --show-toplevel [0ms]
+2023-07-21 14:36:04.565 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:36:13.328 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-21 14:36:13.329 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:36:13.342 [info] > git rev-parse --show-toplevel [0ms]
+2023-07-21 14:36:13.342 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:36:13.865 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-21 14:36:18.626 [info] > git checkout -q -- /home/siyangqiu/HyprV4/HyprV/kitty/kitty.conf [12ms]
+2023-07-21 14:36:18.635 [info] > git config --get commit.template [3ms]
+2023-07-21 14:36:18.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-21 14:36:18.646 [info] > git status -z -uall [1ms]
+2023-07-21 14:36:19.703 [info] > git config --get commit.template [1ms]
+2023-07-21 14:36:19.708 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-21 14:36:19.714 [info] > git status -z -uall [1ms]
+2023-07-21 14:36:19.804 [info] > git ls-files --stage -- /home/siyangqiu/HyprV4/HyprV/hypr/hyprland.conf [1ms]
+2023-07-21 14:36:19.807 [info] > git cat-file -s 9c346f922f7fec0124188383c3e4920a61ddfc8e [1ms]
+2023-07-21 14:36:19.810 [info] > git show --textconv :HyprV/hypr/hyprland.conf [0ms]
+2023-07-21 14:36:25.447 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-21 14:36:26.026 [info] > git show --textconv :colors.rasi [3ms]
+2023-07-21 14:36:26.027 [info] > git ls-files --stage -- /home/siyangqiu/dotfiles/colors.rasi [1ms]
+2023-07-21 14:36:26.030 [info] > git cat-file -s 7c761080e19e42720ebcb4c33748695eb1c777e8 [1ms]
+2023-07-21 14:36:27.355 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-21 14:36:27.355 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-21 14:36:28.565 [info] > git config --get commit.template [2ms]
+2023-07-21 14:36:28.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-21 14:36:28.568 [info] > git status -z -uall [1ms]
+2023-07-21 14:36:36.785 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-21 14:36:37.311 [info] > git check-ignore -v -z --stdin [1ms]
+2023-07-21 14:36:38.509 [info] > git check-ignore -v -z --stdin [0ms]
