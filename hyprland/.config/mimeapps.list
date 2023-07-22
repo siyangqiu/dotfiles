@@ -1,5 +1,0 @@
-[Default Applications]
-inode/symlink=firefox.desktop
-
-[Added Associations]
-inode/symlink=firefox.desktop;
