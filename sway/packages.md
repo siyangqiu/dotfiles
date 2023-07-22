@@ -14,6 +14,9 @@ kitty
 neovim
 zsh
 alacritty
+pipewire 
+networkmanager
+ttf-nerd-fonts-symbols
 
 #yay
 
