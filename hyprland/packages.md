@@ -1,8 +1,8 @@
 #pacman 
 
+alacritty
 wayland
 waybar
-vcs_info_hookdel
 kitty
 thunar
 thunar-archive-plugin
