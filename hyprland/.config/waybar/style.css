@@ -4,6 +4,11 @@
     font-size: 13px;
 }
 
+tooltip * {
+    background-color: transparent;
+    opacity: 0.8;
+}
+
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
     border-bottom: 3px solid rgba(100, 114, 125, 0.5);
@@ -198,4 +203,11 @@ label:focus {
 
 #temperature.critical {
     background-color: #eb4d4b;
+}
+
+#custom-wallpaper {
+    margin-top: -3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-right: 8px;
 }
