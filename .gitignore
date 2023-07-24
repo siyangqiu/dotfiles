@@ -22,3 +22,7 @@ libreoffice/
 mimeapps.list
 .zcompdump-ArchStick-5.9
 .zcompdump-ArchStick-5.9.zwc
+.zsh_history
+ohmyzsh/
+pavucontrol.ini
+qt5ct.conf

@@ -14,6 +14,8 @@ grim
 kitty
 neovim
 zsh
+pamixer
+pavucontrol
 
 #yay
 
@@ -21,5 +23,6 @@ hyprland-git
 rofi-lbonn-wayland
 
 #other
+
 ohmyzsh: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 starship: curl -sS https://starship.rs/install.sh | sh
