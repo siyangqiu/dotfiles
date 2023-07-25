@@ -6,8 +6,7 @@
     // "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "wlr/workspaces",
-        "custom/media"
+        "wlr/workspaces"
     ],
     "modules-center": [
         "clock"
@@ -16,13 +15,12 @@
         "tray",
         "cpu",
         "memory",
-        "pulseaudio",
+        "wireplumber",
         "pulseaudio#microphone",
         "network",
+        // "bluetooth",
         "temperature",
         // "backlight",
-        // "keyboard-state",
-        // "sway/language",
         // "battery",
         "custom/wallpaper"
     ],
@@ -50,14 +48,14 @@
     },
     "cpu": {
         "interval": 10,
-        "format": "",
+        "format": "",
         "max-length": 10,
         "format-alt-click": "click-right",
         "format-alt": "{usage}% ",
         "on-click": "kitty --title btop sh -c 'btop'"
     },
     "memory": {
-        "format": "",
+        "format": "󰭴",
         "on-click": "kitty --title btop sh -c 'btop'"
     },
     "temperature": {
@@ -98,27 +96,17 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{essid} {ipaddr} "
     },
-    "pulseaudio": {
+    "wireplumber": {
         "format": "{icon}",
         "format-muted": "",
         "on-click": "~/.config/waybar/volume --toggle",
         "on-click-right": "pavucontrol",
-        "on-scroll-up": "~/.config/waybar/volume --inc",
-        "on-scroll-down": "~/.config/waybar/volume --dec",
-        "scroll-step": 5,
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": [
-                "",
-                "",
-                ""
-            ]
-        },
+        "format-icons": [
+            "",
+            "",
+            "󰕾",
+            ""
+        ],
         "tooltip": true,
         "tooltip-format": "{volume}% {icon}"
     },
@@ -130,23 +118,22 @@
         "on-click-right": "pavucontrol",
         "on-scroll-up": "~/.config/waybar/volume --mic-inc",
         "on-scroll-down": "~/.config/waybar/volume --mic-dec",
-        "scroll-step": 5,
         "tooltip": false,
         "tooltip-format": "{volume}% "
     },
-    // "backlight": {
-    //     "device": "intel_backlight",
-    //     "format": "{icon}",
-    //     "format-alt-click": "click-right",
-    //     "format-alt": "{icon} {percent}%",
-    //     "format-icons": [
-    //         "󰃞",
-    //         "󰃟",
-    //         "󰃠"
-    //     ],
-    //     "on-scroll-up": "~/.config/HyprV/waybar/scripts/brightness --inc",
-    //     "on-scroll-down": "~/.config/HyprV/waybar/scripts/brightness --dec"
-    // },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon}",
+        "format-alt-click": "click-right",
+        "format-alt": "{icon} {percent}%",
+        "format-icons": [
+            "󰃞",
+            "󰃟",
+            "󰃠"
+        ],
+        "on-scroll-up": "~/.config/HyprV/waybar/scripts/brightness --inc",
+        "on-scroll-down": "~/.config/HyprV/waybar/scripts/brightness --dec"
+    },
     "tray": {
         "icon-size": 16,
         "spacing": 10

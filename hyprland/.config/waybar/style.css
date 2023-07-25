@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: 'JetBrainsMono Nerd Font', Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
 tooltip * {
@@ -15,28 +15,6 @@ window#waybar {
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-}
-
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
-
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
 }
 
 button {
@@ -78,7 +56,6 @@ button:hover {
 }
 
 #mode {
-    background-color: #64727D;
     border-bottom: 3px solid #ffffff;
 }
 
@@ -97,10 +74,35 @@ button:hover {
 #mode,
 #idle_inhibitor,
 #scratchpad {
-    padding: 0 10px;
+    padding-left: 5px;
+    padding-right: 10px;
     color: #ffffff;
     margin-bottom: 4px;
-    opacity: 50;
+}
+
+/* #battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+} */
+
+#memory button:hover {
+    background: rgba(0, 0, 0, 1);
+}
+
+#wireplumber {
+    font-size: 15px;
 }
 
 #window,
@@ -114,20 +116,13 @@ button:hover {
     margin-left: 0;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right>widget:last-child>#workspaces {
-    margin-right: 0;
-}
-
 #battery {
-    background-color: #ffffff;
     color: #000000;
 }
 
 #battery.charging,
 #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
@@ -138,7 +133,6 @@ button:hover {
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
     color: #ffffff;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -160,17 +154,11 @@ label:focus {
     background-color: #eb4d4b;
 }
 
-#idle_inhibitor {
-    background-color: #2d3436;
-}
-
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
     color: #2d3436;
 }
 
 #language {
-    background: #00b093;
     color: #740864;
     padding: 0 5px;
     margin: 0 5px;
@@ -178,7 +166,6 @@ label:focus {
 }
 
 #keyboard-state {
-    background: #97e1ad;
     color: #000000;
     padding: 0 0px;
     margin: 0 5px;
@@ -201,6 +188,11 @@ label:focus {
     background-color: transparent;
 }
 
+#temperature {
+    margin-left: 6px;
+    margin-right: 3px;
+}
+
 #temperature.critical {
     background-color: #eb4d4b;
 }
@@ -209,5 +201,5 @@ label:focus {
     margin-top: -3px;
     margin-left: 4px;
     margin-right: 4px;
-    padding-right: 8px;
+    padding-right: 10px;
 }
