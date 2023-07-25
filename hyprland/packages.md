@@ -1,4 +1,4 @@
-#pacman 
+# pacman 
 
 alacritty
 wayland
@@ -17,12 +17,12 @@ zsh
 pamixer
 pavucontrol
 
-#yay
+# yay
 
 hyprland-git
 rofi-lbonn-wayland
 
-#other
+# other
 
 ohmyzsh: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 starship: curl -sS https://starship.rs/install.sh | sh
