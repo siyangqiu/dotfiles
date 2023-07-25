@@ -13,11 +13,11 @@
         "clock"
     ],
     "modules-right": [
+        "tray",
         "cpu",
         "memory",
         "pulseaudio",
         "pulseaudio#microphone",
-        "tray",
         "network",
         "temperature",
         // "backlight",
@@ -57,7 +57,8 @@
         "on-click": "kitty --title btop sh -c 'btop'"
     },
     "memory": {
-        "format": ""
+        "format": "",
+        "on-click": "kitty --title btop sh -c 'btop'"
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -153,6 +154,7 @@
     "custom/wallpaper": {
         "format": "󰐾",
         "on-click": "~/.config/hypr/loadrand.sh",
+        "on-click-right": "~/.config/hypr/toggle.sh",
         "tooltip": true,
         "tooltip-format": "Change Wallpaper"
     }
