@@ -16,6 +16,9 @@ neovim
 zsh
 pamixer
 pavucontrol
+hyprpaper
+vscode
+btop
 
 # yay
 
