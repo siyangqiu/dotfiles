@@ -18,7 +18,6 @@
         "wireplumber",
         "pulseaudio#microphone",
         "network",
-        // "bluetooth",
         "temperature",
         // "backlight",
         // "battery",
@@ -94,7 +93,8 @@
         "tooltip-format": "{essid} via {ipaddr}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{essid} {ipaddr} "
+        "format-alt": "{essid} {ipaddr} ",
+		"on-click-right": "/usr/bin/networkmanager_dmenu"
     },
     "wireplumber": {
         "format": "{icon}",

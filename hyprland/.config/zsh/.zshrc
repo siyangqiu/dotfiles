@@ -102,6 +102,9 @@ source $ZSH/oh-my-zsh.sh
 alias sudo="sudo "
 alias vim="nvim"
 
+#bindkey '^H' backward-kill-word
+bindkey '^H' backward-delete-word
+
 function cd() {
   builtin cd "$@"
 
@@ -123,3 +126,4 @@ function cd() {
 
 
 eval "$(starship init zsh)"
+

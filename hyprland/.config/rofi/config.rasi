@@ -9,7 +9,7 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser,window";
+	modi:                       "drun,run,filebrowser";
     show-icons:                 false;
     display-drun:               " Apps";
     display-run:                " Run";
@@ -104,11 +104,13 @@ inputbar {
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;
-    children:                    [ "textbox-prompt-colon", "entry" ];
+    children:                    [ "prompt", "entry" ];
 }
 
 prompt {
     enabled:                     true;
+	font:						 "JetBrainsMono Nerd Font 15";
+	padding:					 0px 0px;
     background-color:            inherit;
     text-color:                  inherit;
 }
@@ -126,7 +128,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+/**    placeholder:                 "Search..."; **/
     placeholder-color:           inherit;
 }
 num-filtered-rows {

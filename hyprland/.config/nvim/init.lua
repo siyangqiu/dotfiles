@@ -1,1 +1,3 @@
-require("packer")
+require("plugins")
+require("remap")
+require("set")
