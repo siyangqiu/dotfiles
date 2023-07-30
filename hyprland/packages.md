@@ -19,6 +19,12 @@ pavucontrol
 hyprpaper
 vscode
 btop
+networkmanager-dmenu
+
+# optional
+
+geary
+onedrive
 
 # yay
 
