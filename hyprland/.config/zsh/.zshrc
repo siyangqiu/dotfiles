@@ -104,6 +104,7 @@ alias vim="nvim"
 
 #bindkey '^H' backward-kill-word
 bindkey '^H' backward-delete-word
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 function cd() {
   builtin cd "$@"

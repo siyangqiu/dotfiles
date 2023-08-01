@@ -9,7 +9,6 @@
 
 /*****----- Configuration -----*****/
 configuration {
-    /*****----- modi: add window if supported -----*****/
 	modi:                       "drun,run,filebrowser";
     show-icons:                 false;
     display-drun:               " Apps";

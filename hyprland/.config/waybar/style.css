@@ -84,6 +84,12 @@ button:hover {
     margin-bottom: 4px;
 }
 
+#cpu, 
+#memory {
+    margin-right: 4px;
+}
+
+
 /* #battery:hover,
 #cpu:hover,
 #memory:hover,
