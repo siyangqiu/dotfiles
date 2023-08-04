@@ -8,6 +8,7 @@ thunar
 thunar-archive-plugin
 ttf-jetbrains-mono-nerd
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
 noto-fonts-emoji
 polkit-gnome
 grim
@@ -20,6 +21,7 @@ hyprpaper
 vscode
 btop
 networkmanager-dmenu
+qalculate-gtk
 
 # optional
 

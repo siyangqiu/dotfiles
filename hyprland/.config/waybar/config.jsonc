@@ -6,6 +6,7 @@
     // "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+        // "custom/power_btn",
         "wlr/workspaces"
     ],
     "modules-center": [
@@ -144,5 +145,10 @@
         "on-click-right": "~/.config/hypr/toggle.sh",
         "tooltip": true,
         "tooltip-format": "Change Wallpaper"
+    },
+    "custom/power_btn": {
+        "format": "",
+        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+        "tooltip": false
     }
 }
