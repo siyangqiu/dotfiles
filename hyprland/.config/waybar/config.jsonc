@@ -6,7 +6,7 @@
     // "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        // "custom/power_btn",
+        "custom/power_btn",
         "wlr/workspaces"
     ],
     "modules-center": [
@@ -43,7 +43,7 @@
     },
     "clock": {
         "format": "{:%b-%d | %I:%M%p}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%I:%M%p}"
     },
     "cpu": {
@@ -148,7 +148,7 @@
     },
     "custom/power_btn": {
         "format": "",
-        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+        "on-click": "~/.config/eww/launch_dashboard.sh",
         "tooltip": false
     }
 }
