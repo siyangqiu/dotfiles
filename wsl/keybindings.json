@@ -14,5 +14,10 @@
         "key": "ctrl+shift+j",
         "command": "editor.action.joinLines",
         "when": "!inSearchEditor && !searchViewletFocus"
-    }
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminal.active && terminalFocus"
+    },
 ]
