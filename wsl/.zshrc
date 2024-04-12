@@ -3,6 +3,7 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 alias sudo="sudo "
 alias vim="nvim"
+alias pu="poetry run "
 
 bindkey '^H' backward-delete-word
 bindkey '^@' autosuggest-accept
