@@ -1,8 +1,10 @@
 #!/usr/bin/env zsh
 
+export GTK_USE_WAYLAND=1
+export OZONE_PLATFORM="wayland"
 export MOZ_ENABLE_WAYLAND=1
-export TERMINAL=kitty
-export TERM=kitty
+export TERMINAL=alacritty
+export TERM=alacritty
 export XDG_CONFIG_HOME=~/.config/
 export XDG_CURRENT_DESKTOP=Hyprland
 export XDG_PICTURES_DIR=~/OneDrive/Pictures
