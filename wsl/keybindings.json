@@ -1,43 +1,58 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "f4",
-        "command": "git.openFile",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "f4",
-        "command": "git.openChange",
-        "when": "!isInDiffEditor && !inSearchEditor && !inReferenceSearchEditor"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "editor.action.joinLines",
-        "when": "!inSearchEditor && !searchViewletFocus"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.terminal.kill",
-        "when": "terminal.active && terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+left",
-        "command": "workbench.action.terminal.resizePaneLeft",
-        "when": "terminal.active && terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+down",
-        "command": "workbench.action.terminal.resizePaneDown",
-        "when": "terminal.active && terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+right",
-        "command": "workbench.action.terminal.resizePaneRight",
-        "when": "terminal.active && terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+up",
-        "command": "workbench.action.terminal.resizePaneUp",
-        "when": "terminal.active && terminalFocus"
-    },
+  {
+    "key": "f4",
+    "command": "git.openFile",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "f4",
+    "command": "git.openChange",
+    "when": "!isInDiffEditor && !inSearchEditor && !inReferenceSearchEditor"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.joinLines",
+    "when": "!inSearchEditor && !searchViewletFocus"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "workbench.action.terminal.resizePaneLeft",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "workbench.action.terminal.resizePaneDown",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.terminal.resizePaneRight",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "workbench.action.terminal.resizePaneUp",
+    "when": "terminal.active && terminalFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && !editorFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "cursorPageUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorPageDown",
+    "when": "editorTextFocus"
+  }
 ]
