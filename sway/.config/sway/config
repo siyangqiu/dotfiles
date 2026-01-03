@@ -1,4 +1,12 @@
+exec_always /home/siyangqiu/.local/bin/sway-autorotate.sh 
+
+input type:touch {
+    map_to_output eDP-1
+}
+
 ### Variables
+
+
 set $mod Mod4
 
 set $term alacritty
@@ -21,7 +29,10 @@ gaps inner 2
 #dim_inactive_colors.urgent #900000FF
 
 ### Output configuration
-output * background #000000 solid_color
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+#output * bg #ffffff solid_color
+#output * bg #282c34 solid_color
+
 #output * scale 1.75 
 
 ### Idle configuration
@@ -40,6 +51,10 @@ input type:touchpad {
 
 ### Key bindings
 # Basics:
+input * {
+    xkb_options caps:escape
+}
+
 
     # Start a terminal
     bindsym $mod+Return exec $term
@@ -48,7 +63,7 @@ input type:touchpad {
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+space exec $menu
 
     floating_modifier $mod normal
 
@@ -118,7 +133,7 @@ input type:touchpad {
     # Toggle the current focus between tiling and floating mode
 
     # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+    #bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+a focus parent

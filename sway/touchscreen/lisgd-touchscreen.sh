@@ -49,7 +49,7 @@ exec /usr/bin/lisgd -v \
   -r 20 \
   -t 200 \
   -m 400 \
-  -g "3,$UP,*,*,sh -lc 'rofi -show drun'" \
+  -g "3,$UP,*,*,sh -lc 'wofi --show drun &'" \
   -g "3,$DOWN,*,*,sh -lc 'pkill -USR1 squeekboard'" \
   -g "4,$DOWN,*,*,sh -lc 'swaymsg kill'" \
   -g "3,$LEFT,*,*,sh -lc 'swaymsg workspace next'" \

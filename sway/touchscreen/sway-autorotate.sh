@@ -17,13 +17,19 @@ while true; do
     if [ "$X" -gt 600 ] && [ "$LAST" != "270" ]; then
         swaymsg output "$OUTPUT" transform 270 scale 2
         pkill lisgd
-        "$SCRIPT" 90
+        sleep 0.5
+        if ! pgrep -f lisgd-touchscreen.sh > /dev/null; then
+            $SCRIPT &
+        fi
         LAST="270"
 
     elif [ "$X" -lt 200 ] && [ "$LAST" != "0" ]; then
         swaymsg output "$OUTPUT" transform 0 scale 2
         pkill lisgd
-        "$SCRIPT"
+        sleep 0.5
+        if ! pgrep -f lisgd-touchscreen.sh > /dev/null; then
+            $SCRIPT &
+        fi
         LAST="0"
     fi
 

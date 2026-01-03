@@ -1,0 +1,11 @@
+no_actions=true
+show=drun
+columns=3
+lines=6
+width=800
+prompt=
+allow_images=true
+hide_search=true
+enable_history=true
+sort_order=usage
+close_on_focus_loss=true

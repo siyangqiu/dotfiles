@@ -1,0 +1,70 @@
+/* Window */
+window {
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+}
+
+/* Outer container */
+#outer-box {
+  padding: 20px;
+  spacing: 10px;
+  background-color: transparent;
+}
+
+/* Input */
+#input {
+  padding: 5px 0;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #cdd6f4;
+  border: none;
+}
+
+/* Prompt icon */
+#prompt {
+  margin-right: 10px;
+  color: #cdd6f4;
+}
+
+/* Entry list */
+#inner-box {
+  spacing: 5px;
+  background-color: transparent;
+}
+
+/* Individual entry */
+#entry {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #cdd6f4;
+}
+
+#entry {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+
+  border: 2px solid rgba(205, 214, 244, 0.2);
+  background-color: rgba(30, 30, 46, 0.6);
+
+  color: #cdd6f4;
+}
+
+/* Selected entry */
+#entry:selected {
+  background-color: #89b4fa;
+  color: #1e1e2e;
+}
+
+/* Icons */
+#entry image {
+  margin-right: 10px;
+}
+
+/* Text inside entries */
+#text {
+  color: inherit;
+}
