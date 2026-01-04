@@ -1,4 +1,4 @@
-sudo pacman -S --needed base-devel alacritty git zoxide zsh zsh-autosuggestions neovim fzf starship python poetry nodejs ttf-jetbrains-mono-nerd code fd bat
+sudo pacman -S --needed base-devel alacritty zoxide zsh zsh-autosuggestions neovim fzf starship python poetry nodejs ttf-jetbrains-mono-nerd code fd bat
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
