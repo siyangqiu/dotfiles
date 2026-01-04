@@ -1,0 +1,4 @@
+sudo dnf copr enable atim/starship
+sudo dnf install alacritty git zoxide zsh zsh-autosuggestions neovim fzf starship python poetry nodejs code bat
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+cp keybindings.json ~/.config/Code/User/keybindings.json

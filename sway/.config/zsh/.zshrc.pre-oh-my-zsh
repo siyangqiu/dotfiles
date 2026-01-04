@@ -1,9 +1,0 @@
-alias vim='nvim'
-alias sudo='sudo '
-
-HISTFILE=~/.config/zsh/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-setopt appendhistory
-
-PROMPT='%F{gray}%B[%f%F{blue}%B %~ %b%f%F{gray}%B]%b%f '
