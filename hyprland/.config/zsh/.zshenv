@@ -7,7 +7,6 @@ export TERMINAL=alacritty
 export TERM=alacritty
 export XDG_CONFIG_HOME=~/.config/
 export XDG_CURRENT_DESKTOP=Hyprland
-export XDG_PICTURES_DIR=~/OneDrive/Pictures
 
 #NVIDIA conf
 #LIBVA_DRIVER_NAME=nvidia
