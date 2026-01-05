@@ -1,6 +1,11 @@
 # Completion system
 autoload -U compinit
-compinit
+if [[ ! -f "$ZDOTDIR/.zcompdump" || \
+      "$ZDOTDIR/.zcompdump" -ot "$ZDOTDIR/.zshrc" ]]; then
+  compinit
+else
+  compinit -C
+fi
 
 # Environmental Variables
 export FZF_DEFAULT_OPTS='
