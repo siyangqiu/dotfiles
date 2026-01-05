@@ -31,7 +31,7 @@ bindkey "^[[F"   end-of-line
 bindkey "^[[3~"  delete-char
 bindkey "^[[3;5~" kill-word
 
-# Plugins
+# ZLE Plugins
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
