@@ -78,7 +78,7 @@ bindkey "^[[H"   beginning-of-line
 bindkey "^[[F"   end-of-line
 bindkey "^[[3~"  delete-char
 bindkey "^[[3;5~" kill-word
-bindkey '^I' smart-tab
+#bindkey '^I' smart-tab
 
 # ZLE Plugins
 zle -N smart-tab
