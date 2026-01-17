@@ -83,7 +83,8 @@ bindkey "^[[3;5~" kill-word
 # ZLE Plugins
 zle -N smart-tab
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Tools
 eval "$(zoxide init zsh)"
