@@ -6,6 +6,8 @@ if [[ ! -f "$ZDOTDIR/.zcompdump" || \
 else
   compinit -C
 fi
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 
 # History configuration
 HISTFILE="$ZDOTDIR/.zsh_history"
@@ -63,6 +65,7 @@ export FZF_DEFAULT_OPTS='
 export FZF_CTRL_R_OPTS='--no-preview'
 
 # Aliases
+alias ls='ls --color'
 alias sudo="sudo "
 alias vim="nvim"
 alias pr="poetry run "
