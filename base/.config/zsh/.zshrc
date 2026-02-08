@@ -25,16 +25,6 @@ setopt EXTENDED_HISTORY
 setopt HIST_IGNORE_SPACE
 
 # Functions
-function smart-tab() {
-  if [[ $LBUFFER != *' '* ]]; then
-    zle expand-or-complete
-    return
-  fi
-  if [[ $LBUFFER == *' ' ]]; then
-    LBUFFER+='**'
-  fi
-}
-
 function cd() {
   builtin cd "$@"
 
@@ -81,13 +71,12 @@ bindkey "^[[H"   beginning-of-line
 bindkey "^[[F"   end-of-line
 bindkey "^[[3~"  delete-char
 bindkey "^[[3;5~" kill-word
-#bindkey '^I' smart-tab
 
 # ZLE Plugins
-zle -N smart-tab
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/fzf-tab-git/fzf-tab.plugin.zsh
 
 # Tools
 eval "$(zoxide init zsh)"
