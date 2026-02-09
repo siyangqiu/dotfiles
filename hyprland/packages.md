@@ -1,9 +1,10 @@
-# pacman 
+# pacman
 
 alacritty
 wayland
 waybar
-kitty
+swaync
+hyprshot
 thunar
 thunar-archive-plugin
 ttf-jetbrains-mono-nerd
@@ -35,5 +36,4 @@ rofi-lbonn-wayland
 
 # other
 
-ohmyzsh: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 starship: curl -sS https://starship.rs/install.sh | sh
