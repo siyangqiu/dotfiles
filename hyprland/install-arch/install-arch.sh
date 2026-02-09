@@ -7,4 +7,5 @@ sudo pacman -S --noconfirm --needed \
     hypridle \
     swaync \
     waybar \
-    wofi
+    wofi \
+    btop

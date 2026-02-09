@@ -9,4 +9,5 @@ sudo dnf -y install \
     hypridle \
     swaync \
     waybar \
-    wofi
+    wofi \
+    btop
