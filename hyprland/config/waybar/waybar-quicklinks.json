@@ -1,0 +1,16 @@
+{
+    "custom/quicklink1": {
+        "format": " ",
+        "on-click": "flatpak run com.ml4w.hyprlandsettings",
+        "tooltip-format": "Open Hyprland Settings"
+    }, 
+    "custom/quicklinkempty": {
+    }, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink1",
+            "custom/quicklinkempty"
+        ]
+    }
+}

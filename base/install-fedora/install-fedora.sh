@@ -3,7 +3,8 @@
 sudo dnf -y copr enable atim/starship
 sudo dnf -y copr enable dturner/eza
 sudo dnf -y install eza
-sudo dnf -y install alacritty \
+sudo dnf -y install \
+    alacritty \
     zoxide \
     zsh \
     zsh-autosuggestions \
