@@ -1,0 +1,99 @@
+@define-color backgroundactive #1f1f1f;
+@define-color background #181818;
+@define-color accent #007acc;
+@define-color blue #569cd6;
+@define-color cyan #4ec9b0;
+@define-color green #6a9955;
+@define-color yellow #dcdcaa;
+@define-color orange #ce9178;
+@define-color red #f44747;
+@define-color purple #c586c0;
+@define-color textbase #d4d4d4;
+@define-color textsecondary #cccccc;
+@define-color textmuted #6a9955;
+@define-color textdisabled #858585;
+@define-color border #2b2b2b;
+
+* {
+    font-family: 'CaskaydiaCove Nerd Font', monospace;
+    font-size: 18px;
+}
+
+/* Window */
+window {
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid @border;
+    border-radius: 8px;
+    background-color: @background;
+}
+
+/* Inner Box */
+#inner-box {
+    margin: 5px;
+    padding: 0px;
+    max-width: 10px;
+    border: 2px solid @border;
+    background-color: @backgroundactive;
+}
+
+/* Outer Box */
+#outer-box {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: @background;
+}
+
+/* Scroll */
+#scroll {
+    margin: 0px;
+    padding: 10px;
+    border: none;
+    background-color: @background;
+}
+
+/* Input */
+#input {
+    margin: 10px 15px;
+    padding: 10px;
+    border: 2px solid @border;
+    border-radius: 0.1em;
+    color: @textbase;
+    background-color: @backgroundactive;
+}
+
+#input image {
+    border: none;
+    color: @accent;
+}
+
+/* Text */
+#text {
+    margin: 5px;
+    border: none;
+    color: @textsecondary;
+}
+
+#entry {
+    border-bottom: 2px solid @border;
+    background-color: @backgroundactive;
+}
+
+#entry arrow {
+    border: none;
+    color: @textbase;
+}
+
+/* Selected Entry */
+#entry:selected {
+    border: 0.11em solid @accent;
+}
+
+#entry:selected #text {
+    color: @textbase;
+}
+
+#entry:drop(active) {
+    background-color: @red !important;
+}
