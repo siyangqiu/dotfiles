@@ -14,6 +14,7 @@ else
     echo "Please manually install the required programs"
 fi
 
+cp .zshenv ~/.zshenv
 cp config ~/.config
 mkdir ~/.config/Code
 mkdir ~/.config/Code/User
