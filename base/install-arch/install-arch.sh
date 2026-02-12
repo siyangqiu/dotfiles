@@ -2,6 +2,7 @@
 
 sudo pacman -S --noconfirm --needed \
     base-devel \
+    kitty \
     alacritty \
     zoxide \
     zsh \

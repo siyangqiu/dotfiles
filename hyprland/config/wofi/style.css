@@ -23,8 +23,7 @@
 window {
     margin: 0px;
     padding: 10px;
-    border: 2px solid @border;
-    border-radius: 8px;
+    border: 1px solid @border;
     background-color: @background;
 }
 
@@ -33,7 +32,7 @@ window {
     margin: 5px;
     padding: 0px;
     max-width: 10px;
-    border: 2px solid @border;
+    border: 1px solid @border;
     background-color: @backgroundactive;
 }
 
@@ -57,7 +56,7 @@ window {
 #input {
     margin: 10px 15px;
     padding: 10px;
-    border: 2px solid @border;
+    border: 1px solid @border;
     border-radius: 0.1em;
     color: @textbase;
     background-color: @backgroundactive;

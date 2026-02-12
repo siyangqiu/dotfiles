@@ -5,6 +5,7 @@ sudo dnf -y copr enable dturner/eza
 sudo dnf -y install eza
 sudo dnf -y install \
     kitty \
+    alacritty \
     zoxide \
     zsh \
     zsh-autosuggestions \
