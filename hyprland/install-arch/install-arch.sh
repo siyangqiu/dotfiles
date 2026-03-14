@@ -8,4 +8,5 @@ sudo pacman -S --noconfirm --needed \
     swaync \
     waybar \
     wofi \
-    btop
+    btop \
+    pavucontrol

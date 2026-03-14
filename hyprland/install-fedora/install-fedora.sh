@@ -10,4 +10,5 @@ sudo dnf -y install \
     swaync \
     waybar \
     wofi \
-    btop
+    btop \
+    pavucontro
