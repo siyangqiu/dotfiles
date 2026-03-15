@@ -54,7 +54,7 @@
     "command": "cursorPageDown",
     "when": "editorTextFocus"
   },
-    {
+  {
     "key": "alt+j",
     "command": "cursorLeft",
     "when": "textInputFocus"
